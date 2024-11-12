@@ -1,0 +1,89 @@
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+  }
+  
+  .mainSignup{
+    width: 100%;
+    height: 100vh;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10vh;
+    background-color:rgb(82, 159, 247);
+    color: bisque;
+  }
+  
+  .form_div{
+    display: flex;
+    height: 40%;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    /* border: 2px solid blue; */
+    background-color:rgb(43, 128, 226);
+    background-color:white;
+    justify-content: space-around;
+    box-shadow: 2px 2px 6px 3px rgb(4, 42, 85);
+  }
+  
+  
+  .form_div form{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-around;
+    width: 90%;
+    height: 70%;
+    
+  }
+  
+  .heading_div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .heading_div a{
+      text-decoration: none;
+      color: black;
+    }
+
+    .heading_div .activeLink{
+    text-decoration: underline;
+  }
+
+  .form_div form input{
+    width: 100%;
+    padding-left: 4px;
+    height: 20%;
+    font-size: 15px;
+    outline: none;
+  }
+  
+  .form_div form button{
+    width: 100%;
+    height: 20%;
+    font-size: 20px;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color:rgba(255, 255, 3, 0.87);
+    cursor: pointer;
+  }
+  
+  .errors{
+    color:red;
+    font-size: 13px;
+    letter-spacing: 1px;
+  }
+  
+  .form_div form button:active{
+    background-color:yellowgreen;
+    border: 1px solid rgb(158, 223, 28);
+  }
